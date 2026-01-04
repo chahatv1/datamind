@@ -45,5 +45,6 @@ for key in STATE_KEYS:
 # Instructions
 # --------------------------------------------------
 st.info(
-    "👈 Use the sidebar to move step-by-step through the DataMind pipeline:\n"
-    "Upload → Quality → Clean → Analy
+    "👈 Use the sidebar to move step-by-step through the DataMind pipeline:\n\n"
+    "Upload → Quality → Clean → Analyze → Story → Reports"
+)
