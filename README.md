@@ -14,12 +14,12 @@
 
 ## Technical Architecture
 
-Deep Learning: Transformer-based anomaly detection
-ML Pipeline: Ensemble methods, Isolation Forest, statistical profiling
-NLP: GPT-3.5-turbo integration for business intelligence
-Visualization: Plotly Dash enterprise-grade interactive charts
-Backend: Multi-module microservices architecture
-Deployment: Streamlit Community Cloud (CI/CD)
+- Deep Learning: Transformer-based anomaly detection
+- ML Pipeline: Ensemble methods, Isolation Forest, statistical profiling
+- NLP: GPT-3.5-turbo integration for business intelligence
+- Visualization: Plotly Dash enterprise-grade interactive charts
+- Backend: Multi-module microservices architecture
+- Deployment: Streamlit Community Cloud (CI/CD)
 
 
 
