@@ -31,19 +31,19 @@ Deployment: Streamlit Community Cloud (CI/CD)
 | Data Imputation | 94.8% | Real-time |
 | Pattern Recognition | 92.5% | Batch processing |
 
+
+## Enterprise Features
+
+- Scalable microservices architecture
+- Production-grade error handling  
+- API-ready modular components
+- Automated CI/CD deployment pipeline
+- Multi-format reporting engine (PDF/HTML/JSON)
+
+
 ## Production Deployment
 
 ```bash
 git clone repository
 pip install -r requirements.txt
 streamlit run app.py
-
-**Enterprise Features**
-
-	•	Scalable microservices architecture
-	•	Production-grade error handling
-	•	API-ready modular components
-	•	Automated CI/CD deployment pipeline
-	•	Multi-format reporting engine (PDF/HTML/JSON)
-
-**Built with enterprise ML frameworks and production deployment patterns**
