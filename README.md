@@ -38,12 +38,12 @@ git clone repository
 pip install -r requirements.txt
 streamlit run app.py
 
+**Enterprise Features**
 
-Enterprise Features
 	•	Scalable microservices architecture
 	•	Production-grade error handling
 	•	API-ready modular components
 	•	Automated CI/CD deployment pipeline
 	•	Multi-format reporting engine (PDF/HTML/JSON)
 
-Built with enterprise ML frameworks and production deployment patterns
+**Built with enterprise ML frameworks and production deployment patterns**
