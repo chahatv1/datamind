@@ -2,6 +2,9 @@ import streamlit as st
 
 from modules.story_generator import generate_story
 
+from modules.ui_components import render_sidebar_progress
+render_sidebar_progress("Story")
+
 st.header("✍️ AI-Generated Data Story")
 
 # --------------------------------------------------

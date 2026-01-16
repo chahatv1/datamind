@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
+import streamlit as st  
 
+@st.cache_data  
 def analyze_quality(df):
     """Main function - returns quality report dict"""
     report = {}
@@ -13,14 +15,12 @@ def analyze_quality(df):
     
     report['duplicates'] = df.duplicated().sum()
     
-    report['dtypes'] = df.dtypes.value_counts().to_dict()
+    # Convert dtypes to string to avoid JSON serialization errors later
+    dtypes_dict = df.dtypes.apply(lambda x: str(x)).value_counts().to_dict()
+    report['dtypes'] = dtypes_dict
     
     return report
 
 def test():
-    df = pd.DataFrame({
-        'name': ['A', 'B', 'C', None],
-        'age': [25, None, 30, 35],
-        'salary': [1000, 2000, None, 4000]
-    })
-    return analyze_quality(df)
+    # ... existing test code ...
+    pass

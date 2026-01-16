@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
+import streamlit as st  
 
+@st.cache_data  
 def find_patterns(df):
     """Finds trends, correlations, outliers"""
     patterns = {}
@@ -23,11 +25,3 @@ def find_patterns(df):
         patterns['top_categories'][col] = top.to_dict()
     
     return patterns
-
-# Test
-def test():
-    df = pd.DataFrame({
-        'sales': [100, 200, 150, 500, 120],
-        'region': ['North', 'South', 'North', 'South', 'East']
-    })
-    return find_patterns(df)
